@@ -1,0 +1,60 @@
+name: Update papers (bioRxiv + arXiv)
+
+on:
+  schedule:
+    # At 00:10 UTC on the 1st and 15th of each month
+    - cron: '10 0 1,15 * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      # Set this to 'true' in repo secrets if you want to enable embeddings.
+      ENABLE_EMBEDS: ${{ secrets.ENABLE_EMBEDS }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        # Be conservative: langchain (and OpenAI) is only strictly required if embeddings enabled,
+        # but installing it here keeps the workflow simple. If you want smaller installs, modify this step.
+        run: |
+          python -m pip install --upgrade pip
+          pip install arxiv requests PyPDF2
+          # Optional: langchain + openai only if embeddings enabled
+          if [ "${{ env.ENABLE_EMBEDS }}" = "true" ]; then
+            pip install langchain openai
+          fi
+
+      - name: Run update script (no embeddings by default)
+        env:
+          # Only expose OPENAI_API_KEY if embeddings are enabled and secret present
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          # If ENABLE_EMBEDS secret is exactly "true", run with --with-embeds
+          if [ "${{ env.ENABLE_EMBEDS }}" = "true" ]; then
+            python update_papers.py --with-embeds
+          else
+            python update_papers.py
+          fi
+
+      - name: Commit results if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md metadata.jsonl embeds.jsonl || true
+          if ! git diff --staged --quiet; then
+            git commit -m "Automated: update papers (README + metadata)" || echo "Nothing to commit"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
+          fi
