@@ -1,4 +1,3 @@
 # one keyword or phrase per line
-molecular dynamics
-conformational ensemble
+ensemble
 protein-protein interface
