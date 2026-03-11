@@ -219,6 +219,57 @@ def write_readme(matched: List[Tuple[Paper, List[str]]], start: datetime.date, e
         fh.write("\n".join(lines))
     logging.info("Wrote README with %d matched papers", len(matched))
 
+def write_readme_annotated(all_papers: List[Paper], matched: List[Tuple[Paper, List[str]]],
+                           start: datetime.date, end: datetime.date, path: str = OUTPUT_README):
+    """
+    Write all fetched papers and annotate matched keywords for each (if any).
+    matched: list of (Paper, [keywords])
+    """
+    # build quick map from id -> matched keywords
+    matched_map = {p.id: kws for p, kws in matched}
+
+    header = f"# Papers {start.isoformat()} → {end.isoformat()}\n\n"
+    header += f"_Updated: {datetime.date.today().isoformat()}_\n\n"
+    header += f"**Total fetched:** {len(all_papers)}  \n"
+    header += f"**Total matched:** {sum(1 for v in matched_map.values() if v)}  \n\n"
+
+    header += "| Date | Source | Title | Matched keywords | Link |\n"
+    header += "|---|---|---|---|---|\n"
+
+    lines = [header]
+    for p in sorted(all_papers, key=lambda x: x.date, reverse=True):
+        title = p.title.replace("|", "╱")
+        kwstr = ", ".join(matched_map.get(p.id, []))
+        # optional collapsed abstract on separate line to keep table tidy
+        lines.append(f"| {p.date} | {p.source} | **{title}** | {kwstr} | [paper]({p.link}) |")
+        if p.abstract:
+            lines.append(f"\n> **Abstract:** {snippet(p.abstract, 400)}\n")  # small preview
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(lines))
+    logging.info("Wrote annotated README (total fetched %d, matched %d)", len(all_papers), len(matched_map))
+
+def write_readme_full(all_papers: List[Paper], start: datetime.date, end: datetime.date, path: str = OUTPUT_README):
+    """
+    Write ALL fetched papers to README.md (compact rows + collapsible abstract).
+    """
+    header = f"# Papers {start.isoformat()} → {end.isoformat()}\n\n"
+    header += f"_Updated: {datetime.date.today().isoformat()}_\n\n"
+    header += f"**Total fetched:** {len(all_papers)}  \n\n"
+
+    header += "| Date | Source | Title | Link | Abstract |\n"
+    header += "|---|---|---|---|---|\n"
+
+    lines = [header]
+    for p in sorted(all_papers, key=lambda x: x.date, reverse=True):
+        title = p.title.replace("|", "╱")
+        short = snippet(p.abstract, 300).replace("|", "╱")
+        # collapsible details for full abstract (keeps README compact)
+        details = f"<details><summary>▸ abstract</summary>\n\n{p.abstract}\n\n</details>"
+        lines.append(f"| {p.date} | {p.source} | **{title}** | [paper]({p.link}) | {short} {details} |")
+
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(lines))
+    logging.info("Wrote full README with %d papers", len(all_papers))
 
 # ---------- Optional: embed abstracts (lazy import) ----------
 def embed_abstracts_to_jsonl(matched: List[Tuple[Paper, List[str]]], out_path: str = EMBEDS_JSONL):
@@ -307,7 +358,7 @@ def parse_args():
 def main():
     args = parse_args()
 
-    # window
+    # determine window
     if args.start and args.end:
         start = datetime.date.fromisoformat(args.start)
         end = datetime.date.fromisoformat(args.end)
@@ -322,6 +373,7 @@ def main():
     except Exception as e:
         logging.error("bioRxiv fetch error: %s", e)
         biorxiv = []
+
     try:
         arx = fetch_arxiv(start, end, query=args.arxiv_query)
     except Exception as e:
@@ -331,11 +383,13 @@ def main():
     all_papers = biorxiv + arx
     logging.info("Total fetched: %d (bioRxiv=%d, arXiv=%d)", len(all_papers), len(biorxiv), len(arx))
 
-    # write full metadata
+    # write full metadata (all fetched)
     write_jsonl([asdict(p) for p in all_papers], METADATA_JSONL)
 
-    # filter and write matched metadata + readme
-    matched = filter_by_keywords(all_papers, keywords)  # List[(Paper, [kw])]
+    # filter -> matched is list[ (Paper, [kw]) ]
+    matched = filter_by_keywords(all_papers, keywords)
+
+    # write matched metadata (only if matches found)
     matched_items = []
     for p, kws in matched:
         d = asdict(p)
@@ -344,15 +398,17 @@ def main():
     if matched_items:
         write_jsonl(matched_items, METADATA_MATCHED_JSONL)
     else:
-        # ensure old matched file is removed if no matches (optional)
+        # remove old matched file if you prefer clean state when no matches
         if os.path.exists(METADATA_MATCHED_JSONL):
             try:
                 os.remove(METADATA_MATCHED_JSONL)
             except Exception:
                 pass
-    write_readme(matched, start, end, total_fetched=len(all_papers))
 
-    # optional embeddings
+    # write an annotated README listing all fetched items and showing matched keywords
+    write_readme_annotated(all_papers, matched, start, end)
+
+    # optional embeddings (gated)
     if args.with_embeds and matched:
         try:
             embed_abstracts_to_jsonl(matched, EMBEDS_JSONL)
@@ -373,7 +429,6 @@ def main():
             time.sleep(0.5)  # polite
 
     logging.info("Done.")
-
 
 if __name__ == "__main__":
     main()
