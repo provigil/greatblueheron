@@ -1,0 +1,6 @@
+arxiv>=1.4
+requests>=2.28
+PyPDF2>=3.0
+# Optional (only for embeddings): langchain, openai
+# langchain>=0.0
+# openai>=0.27
