@@ -1,20 +1,88 @@
 # Papers 2026-03-01 → 2026-03-15
 
-_Updated: 2026-03-11_
+_Updated: 2026-03-13_
 
 **Total fetched:** 100  
-**Total matched:** 1  
+**Total matched:** 0  
 
 | Date | Source | Title | Matched keywords | Link |
 |---|---|---|---|---|
+
+| 2026-03-13 | bioRxiv | **GLP-1R agonists activate human hypothalamic neurons** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.04.02.587825) |
+
+> **Abstract:** Drugs like semaglutide (a.k.a. Ozempic/Wegovy) that activate the glucagon-like peptide-1 receptor (GLP-1R) are a promising therapy for obesity and type 2 diabetes (T2D). Animal studies suggest that these drugs likely function by stimulating GLP-1R on appetite-suppressing neuron populations in the brain, but it is still unclear how they act to reduce food intake in humans. We therefore generated…
+
+| 2026-03-13 | bioRxiv | **Quantifying microbial fitness in high-throughput experiments** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.08.20.608874) |
+
+> **Abstract:** Few concepts are as central to evolution as is fitness, and yet the quantification of fitness is often ambiguous. In particular, high-throughput experiments to measure mutant fitness in microbes are increasingly common but vary widely in their definitions of fitness, which makes their results difficult to compare. What are the consequences of these different fitness statistics, and is there a…
+
+| 2026-03-13 | bioRxiv | **A spatial single-cell type multiplex map of human spermatogenesis** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.10.21.619380) |
+
+> **Abstract:** Mapping the spatial localization of proteins is essential for understanding their function. Human testis constitutes a complex organ with thousands of proteins activated or repressed during spermatogenesis. By combining single-cell RNA sequencing (scRNA-seq) with fluorescence-based multiplex immunohistochemistry (mIHC), we performed large-scale spatiotemporal mapping of specific testicular cell…
+
+| 2026-03-12 | bioRxiv | **Functional Separation of mRNA Domains Coordinates Pluripotent Cell Behavior** |  | [paper](https://www.biorxiv.org/content/10.1101/2022.03.15.484504) |
+
+> **Abstract:** Differential expression of mRNA coding sequences (CDSs) and 3-prime untranslated regions (UTRs) is widespread, yet whether these domains contribute independently to cellular function remains unclear. Here, using Nanog as a model, we find that Nanog mRNA domain usage is spatially organized in mouse and human pluripotent cells and in the blastocyst, with cells enriched in 3-prime UTR transcripts…
+
+| 2026-03-12 | bioRxiv | **Simultaneous CRISPR-Cas9-induced double strand breaks are lethal in models of pancreatic cancer** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.04.03.535384) |
+
+> **Abstract:** While radiation is an effective oncologic therapy, killing cancer by inducing DNA double-strand breaks (DSBs), it lacks specificity for neoplastic cells. We have previously adapted the CRISPR-Cas9 gene-editing technology as a cancer-specific treatment modality targeting somatic mutations in pancreatic cancer (PC). However, its tumoricidal potential remains unclear, especially in comparison to…
+
+| 2026-03-12 | bioRxiv | **Consumption of Reinforcing Solutions Engages Dynamic Activityof the Prelimbic Cortical Outputs** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.04.04.535635) |
+
+> **Abstract:** The medial prefrontal cortex integrates information about salience and valence of stimuli, including rewarding solutions like alcohol and sucrose, and regulates aspects of alcohol seeking and consumption. However, our understanding of how cortical outputs encode alcohol consumption is limited. Using fiber photometry to measure calcium activity in putative prelimbic (PrL) glutamatergic projection…
+
+| 2026-03-12 | bioRxiv | **Home security cameras as a tool for behavior observations and science affordability** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.04.17.537238) |
+
+> **Abstract:** Reliably capturing transient animal behavior in the field and laboratory remains a logistical and financial challenge, especially for small ectotherms. Here, we present home camera systems as affordable, accessible, and suitable alternatives for monitoring small, cold-blooded animals historically overlooked by commercial camera traps. Home security cameras are often weather-resistant, operate…
+
+| 2026-03-12 | bioRxiv | **Population structure can reduce clonal interference when sexual reproduction and dispersal are synchronized** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.07.10.548343) |
+
+> **Abstract:** In populations with limited recombination, clonal interference among beneficial mutations limits the maximum rate of adaptation. Spatial structure slows the spread of beneficial alleles; in purely asexual populations, this increases the amount of clonal interference. Beyond this extreme case, however, it is unclear how spatial structure and recombination interact to determine the amount of clonal…
+
+| 2026-03-12 | bioRxiv | **DEC1 is an adult clock regulator that links circadian rhythms to functional β-cell maturation** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.08.11.552890) |
+
+> **Abstract:** Circadian clocks attune metabolism to daily energy cycles, but how they regulate functional maturation of metabolic tissues is poorly understood. Here we show that DEC1, a clock transcription factor induced in adult islet {beta} cells, coordinates their glucose responsiveness by synchronizing energetic and secretory rhythms. DEC1 binds and regulates maturity-linked genes to integrate insulin…
+
+| 2026-03-12 | bioRxiv | **Somatic mosaicism in amyotrophic lateral sclerosis and frontotemporal dementia identifies focal mutations associated with widespread degeneration** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.11.30.569436) |
+
+> **Abstract:** Although mutations in many genes cause familial amyotrophic lateral sclerosis and frontotemporal dementia, most cases are sporadic (sALS and sFTD) with unclear etiology. We tested whether somatic mutations contribute to sALS and sFTD by deep targeted sequencing of 88 neurodegeneration-related genes in postmortem brain and spinal cord samples from 399 sporadic cases and 144 controls. Predicted…
+
+| 2026-03-12 | bioRxiv | **Chronically elevated FGF23 drives sustained renal ERK signaling and inflammatory transcriptional programs mitigated by cFGF23 gene therapy** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.01.18.576116) |
+
+> **Abstract:** Fibroblast growth factor 23 (FGF23) levels are highly elevated in patients with chronic kidney disease (CKD); however, whether it serves merely as a biomarker or actively contributes to kidney inflammation remains unclear. Full-length FGF23 is cleaved into C-terminal FGF23 (cFGF23), which acts as a natural antagonist of FGF23 by inhibiting its binding to the FGF receptor (FGFR) and the…
+
+| 2026-03-12 | bioRxiv | **Phoronids and their tubes harbor distinct microbiomes compared to surrounding sediment** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.05.28.596327) |
+
+> **Abstract:** Phoronids are a phylum of animals with only ~12 described species, all of which are marine filter feeders that build external tubes for shelter and produce chemical deterrents against predators. Many tube-building invertebrates host distinct microbial communities and even have obligate symbionts for survival in sulfur-rich marine sediments. However, the microbiome of phoronids has yet to be…
+
+| 2026-03-12 | bioRxiv | **Spike generation in electroreceptor afferents introduces additional spectral response components by weakly nonlinear interactions** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.06.21.599999) |
+
+> **Abstract:** Spiking thresholds in neurons or rectification at synapses are essential for neuronal computations rendering neuronal processing inherently nonlinear. Nevertheless, linear response theory has been instrumental for understanding, for example, the impact of noise or neuronal synchrony on signal transmission, or the emergence of oscillatory activity, but is valid only at low stimulus amplitudes or…
+
+| 2026-03-12 | bioRxiv | **Bacillus toyonensis biovar Thuringiensis: an overlooked entomopathogen?** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.07.21.604280) |
+
+> **Abstract:** Horizontal gene transfer (HGT) significantly influences prokaryotic genome evolution. Bacillus cereus and Bacillus thuringiensis are nearly identical at the chromosomal level, except for B. thuringiensis producing parasporal crystals. The genes for these crystal proteins (e.g., cry1A), along with other encoded insecticidal proteins (e.g., vip3A), are located on megaplasmids and can be…
+
+| 2026-03-11 | bioRxiv | **Bacterial gene essentiality under modeled microgravity** |  | [paper](https://www.biorxiv.org/content/10.1101/2020.08.13.250431) |
+
+> **Abstract:** The health of eukaryotic hosts is tightly connected to relationships with symbiotic microorganisms, yet how these relationships develop and evolve during long-duration spaceflight is not well understood. In this study, we asked what bacterial genes are required for growth under modeled, or simulated, microgravity conditions compared to normal gravity controls. To conduct this study, we focused on…
+
+| 2026-03-11 | bioRxiv | **Cell-type specific population codes link inferior temporal cortex to object recognition behavior** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.08.01.551579) |
+
+> **Abstract:** A spatially distributed population of neurons in the macaque inferior temporal (IT) cortex supports object recognition behavior, but the cell-type specificity of the population in forming behaviorally sufficient object decodes remains poorly understood. To address this, we recorded neural signals from the macaque IT cortex and compared the object identity information and the alignment of decoding…
 
 | 2026-03-11 | bioRxiv | **Feedback control of recurrent circuits imposes dynamical constraints on learning** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.05.24.595772) |
 
 > **Abstract:** Neural activity has been observed to lie on low-dimensional manifolds, constraining what behaviors are easier or harder to learn. We propose that beyond this geometric constraint, learning on fast timescales is limited by how neural activity can flow over time within these manifolds -- i.e., by the system's underlying dynamics. In primary motor cortex (M1), these neural dynamics are shaped not…
 
-| 2026-03-11 | bioRxiv | **MultiPopPred: A Trans-Ethnic Disease Risk Prediction Method, and its Application to the South Asian Population** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.26.625410) |
+| 2026-03-11 | bioRxiv | **Membrane-tethered cadherin substrates reveal dynamic and local shifts in actin network architecture during adherens junction formation** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.09.09.611904) |
 
-> **Abstract:** Genome-wide association studies (GWAS) have guided significant contributions towards identifying disease-associated Single Nucleotide Polymorphisms (SNPs) in Caucasian populations, albeit with limited focus on other understudied low-resource non-Caucasian populations. There have been active efforts over the years to understand and exploit the population specific versus shared aspects of the…
+> **Abstract:** Adherens junctions (AJs) are E-cadherin-based adhesions at cell-cell contacts that connect the actin cytoskeleton of epithelial cells. Formation and maturation of these junctions is important in development, e.g. for the generation of epithelial tissues, and loss of AJs is linked to metastasis in cancer. It is well established that AJ formation is a mechano-sensitive process involving cis and…
+
+| 2026-03-11 | bioRxiv | **A Novel Rapid Host Cell Entry Pathway Determines Intracellular Fate of Staphylococcus aureus** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612871) |
+
+> **Abstract:** Staphylococcus aureus is an opportunistic pathogen causing severe diseases. Recently, S. aureus was recognized as intracellular pathogen, whereby the intracellular niche promotes immune evasion and antibiotic resistance. Interaction of S. aureus with versatile host cell receptors was described previously, suggesting that internalization of the pathogen can occur via several pathways. It remains…
 
 | 2026-03-10 | bioRxiv | **Combination of CG methylation and Chromomethylase 2-mediated RdDM-independent CHH methylation is required for chromosome-specific rRNA gene silencing** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.02.03.526984) |
 
@@ -34,11 +102,11 @@ _Updated: 2026-03-11_
 
 | 2026-03-10 | bioRxiv | **Functional specialization of mPFC-BLA and mPFC-NAc pathways in affective state representation** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.05.28.596238) |
 
-> **Abstract:** Effective emotional processing, crucial for adaptive behavior, is mediated by the medial prefrontal cortex (mPFC) via connections to the basolateral amygdala (BLA) and nucleus accumbens (NAc), traditionally considered functionally similar in modulating reward and aversion responses. However, the functional specialization of the mPFC-BLA and mPFC-NAc pathways in representing affective states…
+> **Abstract:** Effective emotional processing, crucial for adaptive behavior, is mediated by the medial prefrontal cortex (mPFC) via connections to the basolateral amygdala (BLA) and nucleus accumbens (NAc), traditionally considered functionally similar in modulating reward and aversion responses. However, the functional specialization of the mPFC[-&gt;]BLA and mPFC[-&gt;]NAc pathways in representing affective…
 
 | 2026-03-10 | bioRxiv | **SwiftTCR: Efficient Computational Docking protocol of TCRpMHC-I Complexes Using Restricted Rotation Matrices** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.05.27.596020) |
 
-> **Abstract:** The T cell's ability to discern self and non-self depends on its T cell receptor (TCR), which recognizes peptides presented by MHC molecules. Understanding this TCR-peptide-MHC (TCRpMHC) interaction is important for cancer immunotherapy design, tissue transplantation, pathogen identification, and autoimmune disease treatments. Understanding the intricacies of TCR recognition, encapsulated in…
+> **Abstract:** The T cells ability to discern self and non-self depends on its T cell receptor (TCR), which recognizes peptides presented by MHC molecules. Understanding this TCR-peptide-MHC (TCRpMHC) interaction is important for cancer immunotherapy design, tissue transplantation, pathogen identification, and autoimmune disease treatments. Understanding the intricacies of TCR recognition, encapsulated in…
 
 | 2026-03-10 | bioRxiv | **Differences in orthographic processing across species identified by a transparent computational model** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.06.25.600635) |
 
@@ -68,14 +136,6 @@ _Updated: 2026-03-11_
 
 > **Abstract:** Sleep plays a critical role in animal physiology, primarily governed by the brain, and its disruption is prevalent in various brain disorders. Mettl5 is associated with intellectual disability (ID), which often includes sleep disturbances. However, the mechanism underlying these sleep disruptions in ID remains poorly understood. In this study, we investigated the sleep phenotypes resulting from…
 
-| 2026-03-10 | bioRxiv | **Extinction vortices are driven more by a shortage of beneficial mutations than by deleterious mutation accumulation** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.10.25.620329) |
-
-> **Abstract:** Habitat loss contributes to extinction risk in multiple ways. Genetically, small populations can face an "extinction vortex" - a positive feedback loop between declining fitness and declining population size. Two distinct genetic mechanisms can drive a long-term extinction vortex: i) ineffective selection in small populations allows deleterious mutations to fix, driving "mutational meltdown", and…
-
-| 2026-03-10 | bioRxiv | **THE FAM53C/DYRK1A axis regulates the G1/S transition of the cell cycle** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.12.10.627280) |
-
-> **Abstract:** A growing number of therapies are being developed to target the cell cycle machinery for the treatment of cancer and other human diseases. Consequently, a greater understanding of the factors regulating cell cycle progression becomes essential to help enhance the response to these new therapies. Here, using data from the Cancer Dependency Map, we identified FAM53C as a new regulator of cell cycle…
-
 | 2026-03-09 | bioRxiv | **The alphavirus TF protein plays a critical role in promoting viral propagation by altering cell-cell boundaries** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.07.24.550336) |
 
 > **Abstract:** During cellular infections, alphaviruses produce a 6 kDa membrane protein (6K) and a transframe variant (TF) of 6K through ribosomal frameshifting. The role of these proteins in alphavirus biology is largely unknown. Here, we show that TF of Chikungunya virus plays a unique and critical role in promoting virus propagation by manipulating host cell boundaries. TF achieves this by targeting and…
@@ -103,18 +163,6 @@ _Updated: 2026-03-11_
 | 2026-03-08 | bioRxiv | **Integrin-deficient T cell leukemia accumulates in the central nervous system** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.06.28.601274) |
 
 > **Abstract:** T-cell acute lymphoblastic leukemia (T-ALL) spreads aggressively to the central nervous system (CNS), particularly the leptomeninges. Children with T-ALL are treated with high-dose, CNS-directed chemotherapy, which can cause lasting neurotoxicity and is not always effective. Little is known about how T-ALL enters and persists within the CNS. However, normal T cell migration into the CNS has been…
-
-| 2026-03-08 | bioRxiv | **From the fly connectome to exact ring attractor dynamics** | ensemble | [paper](https://www.biorxiv.org/content/10.1101/2024.11.01.621596) |
-
-> **Abstract:** A cognitive compass enabling spatial navigation requires the neural representation of head direction (HD), yet the neural circuit architecture enabling this representation remains unclear. While various network models have been proposed to explain HD systems, these models rely on simplified circuit architectures that may be irreconcilable with empirical observations from connectomes. Here we…
-
-| 2026-03-08 | bioRxiv | **Sleep Disruption Improves Performance in Simple Olfactory and Visual Decision-Making Tasks** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.02.621641) |
-
-> **Abstract:** Sleep disruption drastically impacts cognitive functions including decision-making and attention across many different species. In this study, we leveraged the small size and conserved vertebrate brain structure of larval zebrafish to investigate how sleep disruption modulates visual-and olfactory-decision-making. Strikingly, sleep disruption improved performance in both paradigms. Specifically,…
-
-| 2026-03-08 | bioRxiv | **Tracking cancer dynamics from normal tissue to malignancy using perfect N- and T-gene expression markers** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.04.621130) |
-
-> **Abstract:** Common knowledge states that the spontaneous somatic evolution of a normal tissue may lead to a tumor. Once the tumor is formed, it naturally evolves towards a state of higher malignancy. On the other hand, perfect gene expression markers for normal tissue and tumor--the so-called N-genes and T-genes--were recently introduced. We join these two pieces of knowledge in order to argue that: 1) Only…
 
 | 2026-03-07 | bioRxiv | **Heterogeneity of Sonic Hedgehog response dynamics and fate specification in single neural progenitors** |  | [paper](https://www.biorxiv.org/content/10.1101/412858) |
 
@@ -168,22 +216,6 @@ _Updated: 2026-03-11_
 
 > **Abstract:** Ninjurin-1 (NINJ1) executes cell lysis by polymerizing into filaments, yet how these form membrane lesions is unknown. Integrating cell-based assays with molecular dynamics simulations, we demonstrate that NINJ1-driven membrane rupture starts with the lateral association of NINJ1 dimers into double filaments. Subsequently, swelling of necrotic cells increases plasma membrane tension, leading to…
 
-| 2026-03-06 | bioRxiv | **Resolving the Taxonomic Status of the Marbled Toad (Bufonidae: Incilius marmoreus): 2RAD-based Phylogeography Including an Isolated Population in Veracruz, Mexico** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.23.624927) |
-
-> **Abstract:** Incilius marmoreus inhabits an extensive range along the Pacific Coast of Mexico and a smaller allopatric region in the State of Veracruz, exhibiting an unusual distribution among herpetofauna. Gunther (1901) classified the Pacific coastal toads Bufo argillaceus and B. lateralis as conspecific with Incilius [Bufo] marmoreus, which has its type locality in Veracruz. Here, we adopt a…
-
-| 2026-03-06 | bioRxiv | **Decontaminating genomic data for accurate species delineation and hybrid detection in the Lasius ant genus** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.27.625433) |
-
-> **Abstract:** Advancements in genetic technologies have allowed us to generate large data sets relatively quickly and easily. However, without proper quality control checks, the inferences drawn from such data can be erroneous and go on to misinform further studies. DNA contamination between focal samples of the same or closely related species can have major impacts on downstream analyses, but their presence…
-
-| 2026-03-06 | bioRxiv | **Automated Cell Type Annotation with Reference Cluster Mapping** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.30.626130) |
-
-> **Abstract:** Single-cell RNA sequencing has transformed the field of cellular biology by providing unprecedented insights into cellular heterogeneity. However, characterizing scRNA-seq datasets remains a significant challenge. We introduce RefCM, a novel computational method that combines optimal transport and integer programming to enhance the annotation of scRNA clusters using established reference…
-
-| 2026-03-06 | bioRxiv | **Temporally overlapping mechanisms diversify clonal B cell responses in vivo.** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.12.17.628863) |
-
-> **Abstract:** Naive B cells amplify and diversify their responses when activated by cognate antigen, via Myc-dependent clonal expansion, immunoglobulin class switch recombination (CSR), phenotypic variation, and somatic hypermutation (SHM). Whether these mechanisms act combinatorially in vivo to diversify clonal responses to a single pathogen remains unclear. Since diversity in the antigenic targets,…
-
 | 2026-03-05 | bioRxiv | **GOntact: using chromatin contacts to infer target genes and Gene Ontology enrichments for cis-regulatory elements** |  | [paper](https://www.biorxiv.org/content/10.1101/2022.06.13.495495) |
 
 > **Abstract:** Cis-regulatory elements (CREs) can be efficiently predicted genome-wide, but identifying their target genes remains challenging. Regulatory interactions between genes and CREs can take place over long genomic distances, often bypassing genes. Inferring CRE targets based on genomic proximity, as traditionally done in genomic studies, can thus be misleading. Thanks to chromosome conformation…
@@ -227,10 +259,6 @@ _Updated: 2026-03-11_
 | 2026-03-05 | bioRxiv | **Defining a tandem repeat catalog and variation clusters for genome-wide analyses** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.10.04.615514) |
 
 > **Abstract:** Tandem repeat (TR) catalogs are important components of repeat genotyping studies as they define the genomic coordinates and expected motifs of all TR loci being analyzed. In recent years, genome-wide studies have used catalogs ranging in size from fewer than 200,000 to over 7 million loci. Where these catalogs overlapped, they often disagreed on locus boundaries, hindering the comparison and…
-
-| 2026-03-05 | bioRxiv | **Divalent siRNA for prion disease** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.12.05.627039) |
-
-> **Abstract:** Prion protein (PrP) lowering is effective in animal models of prion disease and is being tested clinically in prion disease patients, but there remains a need for more potent PrP-lowering drug candidates. Inspired by the reported potency and duration of action of divalent short interfering RNA (siRNA), a new oligonucleotide drug modality for the central nervous system, we sought to discover and…
 
 | 2026-03-04 | bioRxiv | **Electrophysiological indices of hierarchical speech processing differentially reflect the comprehension of speech in noise** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.03.30.534927) |
 
@@ -280,10 +308,6 @@ _Updated: 2026-03-11_
 
 > **Abstract:** Age-related testicular germ cell depletion has been predominantly attributed to apoptosis; however, the contribution of alternative cell death modalities remains unclear. Using young and aged mice, we demonstrate compartment-specific cell-death signatures in the testis. Apoptotic cell increased in peripheral germ layers, whereas the luminal round spermatid (RS) layer mainly accumulated…
 
-| 2026-03-04 | bioRxiv | **Chromosomal rearrangements and instability caused by the LINE-1 retrotransposon** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.12.14.628481) |
-
-> **Abstract:** LINE-1 (L1) retrotransposition is widespread in many cancers, especially those with a high burden of chromosomal rearrangements. However, whether and to what degree L1 activity directly impacts genome integrity is unclear. Here, we apply whole-genome sequencing to experimental models of L1 expression to comprehensively define the spectrum of genomic changes caused by L1. Combining the analyses of…
-
 | 2026-03-03 | bioRxiv | **A cell atlas of the developing human outflow tract of the heart and its adult aortic valve derivatives** |  | [paper](https://www.biorxiv.org/content/10.1101/2023.04.05.535627) |
 
 > **Abstract:** The outflow tract (OFT) of the heart carries blood away from the heart into the great arteries. During embryogenesis, the OFT divides to form the aorta and pulmonary trunk, creating the double circulation present in mammals. Defects in this area account for one-third of all congenital heart defect cases. Here, we present comprehensive transcriptomic data on the developing OFT at two distinct…
@@ -323,18 +347,6 @@ _Updated: 2026-03-11_
 | 2026-03-03 | bioRxiv | **Differential Impact of Multiple Sensory Deprivation on Spatial-coding Cells in Medial Entorhinal Cortex** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.09.09.611946) |
 
 > **Abstract:** Spatial navigation depends on anchoring internal spatial maps to external environments, guided by sensory cues such as visual and tactile information. The Medial Entorhinal Cortex (MEC) is crucial for integrating these sensory inputs during the formation of spatial maps. While the responsiveness of many spatially modulated cells to visual stimuli is well-established, the role of tactile sensation…
-
-| 2026-03-03 | bioRxiv | **Tandem repeat variation shapes immune cell type-specific gene expression** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.02.621562) |
-
-> **Abstract:** Tandem repeats (TRs) - highly polymorphic, repetitive sequences across the human genome - are important regulators of gene expression but remain underexplored due to challenges in accurate genotyping and analysis1. Here, we generate new whole genome and single-cell RNA sequencing from >5.4 million blood-derived cells across 1,925 individuals in two cohorts [Cuomo et al., accompanying manuscript],…
-
-| 2026-03-03 | bioRxiv | **A simple method for computationally unstructuring proteins: some findings** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.10.622713) |
-
-> **Abstract:** A methodology for computationally unstructuring proteins is described and the results of its application to a variety of proteins analyzed and discussed. Some proteins prove more susceptible than others, and fold topology plays a part in this. Alpha helical structure is found to be generally somewhat robust, and, perhaps unsurprisingly, unstructuring often begins at exposed chain termini.…
-
-| 2026-03-03 | bioRxiv | **Ubiquitin Ligase ITCH Regulates Life Cycle of SARS-CoV-2 Virus** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.12.04.624804) |
-
-> **Abstract:** SARS-CoV-2 infection poses a major threat to public health, and understanding the mechanism of viral replication and virion release would help identify therapeutic targets and effective drugs for combating the virus. Herein, we identified E3 ubiquitin-protein ligase Itchy homolog (ITCH) as a central regulator of SARS-CoV-2 at multiple steps and processes. ITCH enhances the ubiquitination of viral…
 
 | 2026-03-02 | bioRxiv | **A nano-liquid hub integrating growth and immune-evasion signaling to promote survival** |  | [paper](https://www.biorxiv.org/content/10.1101/2021.12.30.474523) |
 
@@ -395,15 +407,3 @@ _Updated: 2026-03-11_
 | 2026-03-02 | bioRxiv | **Upcycling Polyethylene into Poly(3-hydroxybutyrate) via a Chemo-Enzymatic-Microbial Cascade** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.09.26.615289) |
 
 > **Abstract:** Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging…
-
-| 2026-03-02 | bioRxiv | **Non-gonadal PIWI protein, Aubergine, regulates regenerative stem cell proliferation and tumourigenesis in the Drosophila adult intestine.** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.04.621896) |
-
-> **Abstract:** The PIWI-interacting RNA (piRNA) biosynthesis pathway is best studied for its role suppressing Drosophila germline transposable elements. Piwi, the founding member of the pathway, is involved in adult intestinal stem cell (ISC) homeostasis. Whether a broader role of the PIWI pathway exists in the intestine, remains unknown. Here, we characterise a role of the PIWI family protein Aubergine (Aub)…
-
-| 2026-03-02 | bioRxiv | **Brain functional network connectivity interpolation characterizes the neuropsychiatric continuum and heterogeneity** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.11.13.623318) |
-
-> **Abstract:** Psychiatric and neurodevelopmental disorders such as schizophrenia (SZ) and autism spectrum disorder (ASD) are challenging to characterize in part due to their heterogeneous presentation in individuals, with symptoms now believed to exist on a continuum. Conventional diagnostic and neuroimaging analytical approaches rely on subjective assessment or group differences but typically ignore…
-
-| 2026-03-02 | bioRxiv | **ggrain: a R package for raincloud plots** |  | [paper](https://www.biorxiv.org/content/10.1101/2024.12.13.628294) |
-
-> **Abstract:** Clear data visualization is essential to effectively communicate empirical findings across various research fields. Raincloud plots fill this need by offering a transparent and statistically robust approach to data visualization. This is achieved by combining three plots in an aesthetically pleasing fashion. First, a dot plot displays raw data with minimal distortion, allowing a fast glance at…
